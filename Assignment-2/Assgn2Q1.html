@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student.register</title>
+
+    <style>
+        .form_container{
+            margin:auto;
+            float: center;
+            width:50%;
+            padding:20px 10px 30px 5px;
+            background-color: aqua;
+        }
+        .form_element{
+            width:200%;
+            margin:10px 5px;
+        }
+        input[type=text]{
+            width:50%;
+        }
+        input[type=submit]{
+            width:100px;
+            height:30px;
+            text-align: center;
+            background-color: blue;
+            color: rgb(227, 177, 13);
+            border-radius: 10px;
+            font-size: 15px;
+            float: center;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(165, 247, 89) ;">
+    <h1 style="color:rgb(71, 13, 196);  text-align: center;"><u>REGISTRATION FORM</u></h1>
+    <div class="form_container">
+        <form>
+            <div class="form_container">
+                <div class="form_element">
+                    Name : <input type="text" name="full_name" id="full_name" value="" placeholder="fullname"/>
+                </div>
+                <div class="form_element">
+                    Email : <input type="email" name="email" placeholder="example@gmail.com">
+                </div>
+                <div class="form_element">
+                    Phone : <input type="tel" name="tel" placeholder="Enter mobile number here...">
+                </div>
+                <div class="form_element">
+                    Gender :<br> 
+                    <input type="radio" name="Gender" value="Male">Male <br>
+                    <input type="radio" name="Gender" value="Female">Female
+                </div>
+                <div class="form_element">
+                    Address :<br><textarea cols="20" rows="4" placeholder="Address"></textarea>
+                </div>
+                <div class="form_element">
+                    Password : <input type="password" name="password" value="Rout@123" placeholder="password"/>
+                </div>
+                <div class="form_element">
+                    Confirm Password : <input type="password" name="password" value="" placeholder="password"/>
+                </div>
+                <div class="form_element">
+                    <input type="checkbox" name="i agree "value=1/> I agree with all terms and conditions
+                </div> 
+                <div class="form_element">
+                    <input type="submit" name="submit" value="submit" />
+                    </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
