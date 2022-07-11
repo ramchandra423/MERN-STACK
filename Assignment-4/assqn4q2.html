@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+
+
+    <style>
+        .form_container{
+            margin:auto;
+            float: center;
+            width:50%;
+            padding:20px 25px 30px 3px;
+            background-color: aqua;
+        }
+        .form_element{
+            width:200%;
+            margin:10px 5px;
+        }
+        input[type=text]{
+            width:50%;
+        }
+        input[type=submit]{
+            width:100px;
+            height:30px;
+            text-align: center;
+            background-color: blue;
+            color: rgb(227, 177, 13);
+            border-radius: 10px;
+            font-size: 15px;
+            float: center;
+        }
+    </style>
+</head>
+<body id="b" style="background-color:rgb(144, 187, 177) ;">
+    <h1 style="color:rgb(71, 13, 196);  text-align: center;"><u>REGISTRATION FORM</u></h1>
+    <div id="err_msg" align="center" ></div>
+    <div class="form_container">
+        <form>
+            <div class="form_container">
+                <div class="form_element">
+                    Name :<input type="text" name="full_name" id="name" value="" placeholder="Full Name"/>
+                </div>
+                <div class="form_element">
+                    Email :<input type="email" name="email" id="email" value="" placeholder="@gmail.com">
+                </div>
+                <div class="form_element">
+                    Phone :<input type="tel" name="tel" id="phone" value="" placeholder="Mobile number">
+                </div>
+                <div class="form_element">
+                    Gender :<br> 
+                    <input type="radio" name="Gender" value="Male">Male <br>
+                    <input type="radio" name="Gender" value="Female">Female
+                </div>
+                <div class="form_element">
+                Address:<br> <textarea cols="50" rows="4" id="address" value="" placeholder="Address"></textarea>
+                </div>
+                <div class="form_element">
+                    Pincode:<input type="Pincode" id="pincode" name="pincode" placeholder="Enter the pincode"/>
+                </div>
+                <div class="form_element">
+                    Password:<input type="Password" id="password" name="password" placeholder="Enter the password"><br> <br>
+                    Confirm password:<input type="Password" id="c_password" name="confirm-password" placeholder="Confirm password"> 
+                </div>
+                <div class="form_element">
+                    <input type="checkbox" id="i_agree" name="i agree" /> I agree with all terms and conditions.
+                </div> 
+                <div class="form_element">
+                    <input type="submit" name="submit" value="submit"/>
+                </div>
+        </form>
+    </div>
+    <script src="q2.js"></script>
+</body>
+</html>
