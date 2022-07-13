@@ -1,3 +1,5 @@
+//user inputed one
+//install (npm install prompt-sync)
 const prompt =require('prompt-sync')()
 function item_detail(p_name,p_price){
     return{
