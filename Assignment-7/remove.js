@@ -15,6 +15,6 @@ exports.removeItem = (id) =>{
         if(err)
         console.log('Something went Wrong')
         else
-        console.log(`user with ${id} updated sucessfully !!`);
+        console.log(`user with ${id} removed sucessfully !!`);
     })
 }
