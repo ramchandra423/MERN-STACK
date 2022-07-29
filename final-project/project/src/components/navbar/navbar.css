@@ -1,0 +1,22 @@
+.cart-img{
+    width: 8;
+    height: 50%;
+    position: absolute;
+    right: 20px;
+    bottom:6px ;
+}
+.unique{
+    width: 3.5%;
+    height:14%;
+    position: absolute;
+    right: 10px;
+    top:10px ;
+
+}
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
