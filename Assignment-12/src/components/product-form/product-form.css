@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+.form-container{
+    width: 50%;
+    background-color: aliceblue;
+    margin:auto;
+    box-shadow: 6px 6px 6px 6px #ccc;
+}
+
+.form-input{
+    width: 50%;
+    padding: 10px;
+    float:left;
+
+}
+
+.clearfix{
+    clear:both;
+}
+input[type='text']{
+    width:100%;
+    font-family:'Arial';
+    border:1px solid rgb(20, 100, 106);
+    border-radius: 5px;
+    height:40px;
+    padding-left: 10px;
+}
+
+.bot-on{
+    background: blue;
+    border: 2px solid rgb(95, 95, 238);
+    padding: 10px;
+    font-weight:bold;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.bot{
+    width: 50%;
+    padding: 10px;
+}
+h1{
+    margin:10px;
+}
